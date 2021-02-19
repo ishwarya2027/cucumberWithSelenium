@@ -4,7 +4,7 @@
  - Java
  - BDD cucumber
  - Maven
- - Junit
+ - TestNG
  
  # Pre-requisites
  - Have Java and maven
