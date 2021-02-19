@@ -5,7 +5,7 @@ Feature: It Should allow users to add new computers to the database for searchin
   So That I dont have to book time with a database administrator
   
    Scenario: There should be a link to the new section that allows users to add computers to the database
-	  Given I am using a web browser
+    Given I am using a web browser
     When I navigate to the computer database app
     Then I should see a new button called "Add a New Computer"
 
@@ -31,7 +31,7 @@ Feature: It Should allow users to add new computers to the database for searchin
       | Add Computer |
       |    Cancel    |
 
-	 # The below scenrio is supposed to fail because the application allows to save the computer though fields are left empty
+   # The below scenrio is supposed to fail because the application allows to save the computer though fields are left empty
    Scenario: It should not allow new computers to be added unless all fields are populated
     Given I am already adding a computer in the Add a New Computer view
     And I have already entered a name for a computer
@@ -41,9 +41,9 @@ Feature: It Should allow users to add new computers to the database for searchin
     
  Scenario: It should allow new computers to be added if all fields are populated
    Given I am already adding a computer in the Add a New Computer view
-    And I have already entered all fields for a new computer
-    When I click "Add This Computer"
-    Then It should be allowed to save
+   And I have already entered all fields for a new computer
+   When I click "Add This Computer"
+   Then It should be allowed to save
     
    Scenario: It Should allow me to cancel the operation
     Given I am already entering a new computer into the system
