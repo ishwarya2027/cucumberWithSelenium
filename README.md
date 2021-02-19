@@ -15,7 +15,7 @@
  - Open the project in IDE preferably Eclipse
  - Import the project as a maven project
  - Go to pom.xml file and update dependancy
- - Go to src/test/resource/featurfile/gforce.feature
- - Right click and run as cucumber feature
+ - Go to src/test/java/TestRunner.java
+ - Right click and run as testng suite
  - It should spawn the test in a firefox browser
  - Report should be available in test-output/index.html. Shows a nice html view of the result.
