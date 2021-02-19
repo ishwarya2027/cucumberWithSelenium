@@ -111,7 +111,6 @@ public class GforceSteps {
 		for (Map<String, String> field : data) {
 			String fieldLabel;
 			String tagName;
-			System.out.println("OBBBBBBB" + field.get("fields"));
 			switch (field.get("fields")) {
 
 			case "Computer name":
@@ -144,7 +143,6 @@ public class GforceSteps {
 		List<Map<String, String>> data = buttons.asMaps();
 		for (Map<String, String> field : data) {
 			String buttonLabel;
-			System.out.println("OBBBBBBB" + field.get("buttons"));
 			switch (field.get("buttons")) {
 			case "Add Computer":
 				buttonLabel = driver.findElement(By.xpath("//div[@class='actions']//input")).getAttribute("value");
